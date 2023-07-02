@@ -1,3 +1,5 @@
+
+# calculadora hecha en pyton  calculadora(a, b, signo)
 def calculadora(a, b, signo):
     if len([a, b, signo]) < 3:
         return "Se requieren al menos 3 parámetros."
@@ -26,4 +28,4 @@ def calculadora(a, b, signo):
 operacion = input('Elige la operación: ')
 valor1 = int(input('Ingresa el primer valor: '))
 valor2 = int(input('Ingresa el segundo valor: '))
-print(calculadora(valor1, valor2, operacion))
+print(calculadora(valor1, valor2, operacion)) 
